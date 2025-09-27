@@ -49,11 +49,11 @@ composio whoami
 Edit the `.env` file with your credentials:
 
 ```env
-# Already configured Slack credentials ✅
-SLACK_BOT_TOKEN=xoxb-9591749226101-9595224592802-m0kKJyS0L1LHE7fsze3WOaMq
-SLACK_CLIENT_ID=959174922610.9623034429408
-SLACK_CLIENT_SECRET=de8549d195072c150372131cf59db486
-SLACK_SIGNING_SECRET=deda1d72e0f3ff3b5f0a5a0182452591
+# DO NOT include real secrets in README files. Use placeholders and environment variables.
+SLACK_BOT_TOKEN=<REDACTED_SLACK_BOT_TOKEN>
+SLACK_CLIENT_ID=<REDACTED_SLACK_CLIENT_ID>
+SLACK_CLIENT_SECRET=<REDACTED_SLACK_CLIENT_SECRET>
+SLACK_SIGNING_SECRET=<REDACTED_SLACK_SIGNING_SECRET>
 
 # Add your Composio API key
 COMPOSIO_API_KEY=<your_composio_api_key>
@@ -248,7 +248,7 @@ asyncio.run(check())
 
 ### Authentication Issues
 1. Ensure Composio API key is valid
-2. Check Slack bot token starts with `xoxb-`
+2. Check Slack bot token starts with `xoxb-` (do not paste tokens into docs)
 3. Verify bot has required permissions in Slack
 
 ### Message Sending Failures

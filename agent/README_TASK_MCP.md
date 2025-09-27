@@ -41,7 +41,7 @@ COMPOSIO_USER_ID=default
 COMPOSIO_SLACKBOT_AUTH_CONFIG_ID=ac_PifaCardbZwt  # ✅ Configured
 
 # Slack
-SLACK_BOT_TOKEN=xoxb-9591749226101-...  # ✅ Configured
+SLACK_BOT_TOKEN=<REDACTED_SLACK_BOT_TOKEN>  # ✅ Configured
 
 # MCP Server
 MCP_SERVER_HOST=127.0.0.1
