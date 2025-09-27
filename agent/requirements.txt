@@ -19,6 +19,7 @@ jsonpatch>=1.33
 # Slack integration dependencies
 aiohttp>=3.9.0
 redis>=4.5.0
+requests>=2.31.0
 
 # OpenAI
 openai>=1.0.0
