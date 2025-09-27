@@ -288,7 +288,7 @@ async def get_mcp_status():
 def run_frontend_server():
     """Run the frontend API server"""
     host = os.getenv('FRONTEND_API_HOST', '0.0.0.0')
-    port = int(os.getenv('FRONTEND_API_PORT', '8001'))
+    port = int(os.getenv('FRONTEND_API_PORT', '8081'))
 
     logger.info(f"Starting Frontend API Server on {host}:{port}")
     logger.info(f"MCP Server URL: {MCP_SERVER_URL}")

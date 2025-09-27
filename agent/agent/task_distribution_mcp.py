@@ -427,7 +427,7 @@ async def update_user_mapping(email: str, slack_user: str):
 def run_server():
     """Run the MCP server"""
     host = os.getenv('MCP_SERVER_HOST', '127.0.0.1')
-    port = int(os.getenv('MCP_SERVER_PORT', '8000'))
+    port = 8080
 
     logger.info(f"Starting Task Distribution MCP Server on {host}:{port}")
 
