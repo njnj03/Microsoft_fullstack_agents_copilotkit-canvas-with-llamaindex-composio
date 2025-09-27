@@ -1,0 +1,24 @@
+# Core dependencies
+llama-index-core>=0.14.0,<0.15
+llama-index-llms-openai>=0.5.0,<0.6
+llama-index-protocols-ag-ui>=0.2.2
+
+# Composio integration
+composio
+composio-llamaindex
+
+# Web framework
+fastapi>=0.100.0
+uvicorn>=0.27.0
+pydantic>=2.0.0
+
+# Utilities
+python-dotenv>=1.0.1
+jsonpatch>=1.33
+
+# Slack integration dependencies
+aiohttp>=3.9.0
+redis>=4.5.0
+
+# OpenAI
+openai>=1.0.0
